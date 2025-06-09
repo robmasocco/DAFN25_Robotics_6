@@ -82,7 +82,8 @@
         "files.associations": {
           "*.tex": "latex"
         },
-        "latex-workshop.latexindent.args": [
+        "latex-workshop.formatting.latex": "latexindent",
+        "latex-workshop.formatting.latexindent.args": [
           "-c",
           "%DIR%/",
           "%TMPFILE%"
