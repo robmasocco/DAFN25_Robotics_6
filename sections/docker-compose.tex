@@ -1,6 +1,6 @@
 % Section 3 - Docker Compose
 % Roberto Masocco <roberto.masocco@uniroma2.it>
-% June 4, 2024
+% June 12, 2025
 
 % ### Docker Compose ###
 \section{Docker Compose}
@@ -10,7 +10,7 @@
 \begin{frame}{Composing services}
 	\begin{columns}
 		\column{.5\textwidth}
-		Managing multiple, interdependent \textbg{containerized services} can become quite a tedious task.\\
+		Managing multiple, interdependent \textbg{containerized services} becomes quite a tedious task.\\
     \bigskip
 		Each container may take multiple options, some have to be started in sequence or built in a particular way...
 		\begin{block}{}
@@ -61,7 +61,7 @@ services:
   \bigskip
 	See the \href{https://docs.docker.com/compose/reference/}{\color{blue}\underline{Compose CLI reference}} for more.\\
   \bigskip
-  Installation instructions for Docker and Compose can be found \href{https://docs.docker.com/engine/install/ubuntu/}{\color{blue}\underline{here}} and \href{https://docs.docker.com/compose/install/linux/}{\color{blue}\underline{here}}, respectively, and also in the provided shell script \href{https://github.com/IntelligentSystemsLabUTV/ros2-examples/blob/humble/bin/docker_install.sh}{\color{blue}\underline{\texttt{bin/docker\_install.sh}}}.\\
+  Installation instructions for Docker and Compose can be found \href{https://docs.docker.com/engine/install/ubuntu/}{\color{blue}\underline{here}} and \href{https://docs.docker.com/compose/install/linux/}{\color{blue}\underline{here}}, respectively.\\
   On systems with an Nvidia GPU, the \href{https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/overview.html}{\color{blue}\underline{NVIDIA Container Toolkit}} is suggested.\\
   Installation on Windows and macOS requires \href{https://www.docker.com/products/docker-desktop/}{\color{blue}\underline{Docker Desktop}}, but \textbg{lacks many features}.
 \end{frame}
@@ -72,7 +72,7 @@ services:
   It is a self-contained \textbg{ROS 2 development environment built with Docker}!\\
   \bigskip
   It also supports the \textbg{automated build} of \textbg{development containers} in \textbg{VS Code}.\\
-	Such containers are based on our \href{https://github.com/IntelligentSystemsLabUTV/dua-template}{\color{blue}{\underline{\textbf{Distributed Unified Architecture}}}} project, which is part of Roberto Masocco's PhD thesis.\\
+	Such containers are based on our \href{https://github.com/dotX-Automation/dua-template}{\color{blue}{\underline{\textbf{Distributed Unified Architecture}}}} project, which is the main subject of Roberto Masocco's PhD thesis.\\
   \bigskip
-	Their inner workings are totally transparent, but if you're curious see \href{https://github.com/IntelligentSystemsLabUTV/ros2-examples/blob/humble/dua_template.md}{\color{blue}\underline{\texttt{dua\_template.md}}}.
+	Their inner workings are totally transparent, but if you're curious see \href{https://github.com/IntelligentSystemsLabUTV/ros2-examples/blob/jazzy/dua-template.md}{\color{blue}\underline{\texttt{dua-template.md}}}.
 \end{frame}

@@ -1,6 +1,6 @@
-# DAFN24_Robotics_7
+# DAFN25_Robotics_6
 
-DAFN 2024 - Robotics 7: Inside the roboticist’s toolbox - Linux kernel, Docker, and more
+DAFN 2025 - Robotics 6: Inside the roboticist’s toolbox - Linux kernel, Docker, and more
 
 LaTeX source code and build files.
 
